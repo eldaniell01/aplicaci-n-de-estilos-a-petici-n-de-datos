@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--documento donde se encuentra los estilos de la tabla-->
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <title>Document</title>
+</head>
+<body>
+    <!-- se crea un boton con un evento de tipo onclick, dicho evento ejecutará la función para motrar los datos-->
+    <div>
+        <input type="button" onclick={traer()} value="traer datos">
+    </div>
+    <!--se crea una tabla donde se van a mostrar los datos-->
+    <div>
+        <table class="table">
+            <!--nombre de cada una de las columnas -->
+            <thead>
+              <tr>
+                <th scope="col">id</th>
+                <th scope="col">nombre</th>
+                <th scope="col">contraseña</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">usuario</th>
+                <th scope="col">Correo</th>
+              </tr>
+            </thead>
+            <!--cuerpo de la tabla donde se monstraran los datos mediante el identificador ROOT-->
+            <tbody id="root">
+              
+              
+            </tbody>
+          </table>
+    </div>
+    <!--archivo js donde estan las funciones para pedir los datos-->
+    <script src="index.js"></script>
+</body>
+</html>

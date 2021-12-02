@@ -1,0 +1,15 @@
+table{
+ border-collapse: collapse;
+ font-family: 'Courier New', Courier, monospace;
+}
+table, td, th{
+    border: 2px solid lawngreen;
+    
+    padding: 8px;
+}
+th{
+    background: gray;
+}
+tr{
+    background: indianred;
+}
